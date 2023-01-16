@@ -7,13 +7,13 @@ if [ "$EUID" -ne 0 ]
 fi
 
 ACTUALDIR=`dirname $0`
-POCKETDESKDIR=`$ACTUALDIR/pocket-desck`
-SOURCESLISTFILE=`/etc/apt/sources.list`
-PREFERENCESFILE=`/etc/apt/preferences`
-JESSIEDIR=`$ACTUALDIR/jessie`
-STRETCHDIR=`$ACTUALDIR/stretch`
-NETWORKMANAGERDIR=`/etc/NetworkManager/NetworkManager.conf`
-XORGDIR=`/etc/X11/xorg.conf`
+POCKETDESKDIR=$ACTUALDIR/pocket-desk
+SOURCESLISTFILE=/etc/apt/sources.list
+PREFERENCESFILE=/etc/apt/preferences
+JESSIEDIR=$ACTUALDIR/jessie
+STRETCHDIR=$ACTUALDIR/stretch
+NETWORKMANAGERDIR=/etc/NetworkManager/NetworkManager.conf
+XORGDIR=/etc/X11/xorg.conf
 
 reset
 
