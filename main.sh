@@ -12,7 +12,6 @@ SOURCESLISTFILE=`/etc/apt/sources.list`
 PREFERENCESFILE=`/etc/apt/preferences`
 JESSIEDIR=`$ACTUALDIR/jessie`
 STRETCHDIR=`$ACTUALDIR/stretch`
-BUSTERDIR=`$ACTUALDIR/buster`
 NETWORKMANAGERDIR=`/etc/NetworkManager/NetworkManager.conf`
 XORGDIR=`/etc/X11/xorg.conf`
 
@@ -50,5 +49,3 @@ cp $STRETCHDIR/sources.list $SOURCESLISTFILE
 sudo apt update && sudo apt full-upgrade
 cp $STRETCHDIR/NetworkManager.conf $NETWORKMANAGERDIR
 cp $STRETCHDIR/xorg.conf $XORGDIR
-
-# set up Buster source list
